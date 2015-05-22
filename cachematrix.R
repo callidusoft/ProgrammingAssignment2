@@ -53,7 +53,7 @@ cacheSolve <- function(x, ...) {
     
     ## if the value of the cached inverse matrix is not NULL, we retrieve it and return the value
     if(!is.null(m)){
-        message("gettign cached data")
+        message("getting cached data")
         return(m)
     }
     
